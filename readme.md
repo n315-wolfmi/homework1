@@ -3,7 +3,7 @@
 Author: Matthew Wolf, IUPUI, N315 Fall 2022
 
 Web4 Link:
-https://in-info-web4.informatics.iupui.edu/~wolfmi/n315/homework1 
+https://in-info-web4.informatics.iupui.edu/~wolfmi/n315/homework1
 
 ## Assignment Info
 * Create a small example of the BEM model
