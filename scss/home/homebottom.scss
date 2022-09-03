@@ -1,0 +1,21 @@
+.homebottom {
+    min-height: 100%;
+    background-color: #fcdc00;
+    padding: 100px 0;
+
+    .homebottom__manycards {
+        max-width: 1300px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .manycards__title {
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-bottom: solid #000 1px;
+            padding-bottom: 20px;
+            margin-bottom: 50px;
+        }
+    }
+}

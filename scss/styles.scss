@@ -1,5 +1,7 @@
 @import 'structure.scss';
 @import 'nav.scss';
-@import 'hometop.scss';
-@import 'homebottom.scss';
+@import 'home/hometop.scss';
+@import 'home/homebottom.scss';
+@import 'home/bottomleft.scss';
+@import 'home/bottomright.scss';
 @import 'footer.scss';
