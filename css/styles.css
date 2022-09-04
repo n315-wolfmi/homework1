@@ -230,6 +230,112 @@ h1, h2, h3, h4, h5, h6, p {
   padding: 15px 50px;
 }
 
+.learncontent {
+  min-height: 100%;
+  padding-top: 100px;
+  background-color: #181818;
+}
+.learncontent .learn {
+  margin: 0 auto;
+  width: 60%;
+  color: #fff;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding-bottom: 100px;
+}
+.learncontent .learn .learn__left {
+  width: 35%;
+  padding-top: 50px;
+}
+.learncontent .learn .learn__left .left__links {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+.learncontent .learn .learn__left .left__links .leftlinks__active {
+  color: #fcdc00;
+}
+.learncontent .learn .learn__left .left__links a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.learncontent .learn .learn__left .left__links a:hover {
+  color: #ec008c;
+}
+.learncontent .learn .learn__right {
+  width: 65%;
+  position: relative;
+}
+.learncontent .learn .learn__right .right__title {
+  font-size: 40px;
+}
+.learncontent .learn .learn__right p {
+  line-height: 30px;
+}
+.learncontent .learn .learn__right .right__infocard {
+  margin-top: 50px;
+}
+.learncontent .learn .learn__right .right__infocard .infocard__title {
+  font-size: 26px;
+}
+.learncontent .learn .learn__right .right__infocard .infocard__examplebox {
+  background-color: #fff;
+  height: 100px;
+  color: #000;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.learncontent .learn .learn__right .right__infocard .infocard__examplebox .examplebox__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.learncontent .learn .learn__right .right__infocard .infocard__examplebox .examplebox__text {
+  margin-bottom: -10px;
+  font-size: 14px;
+}
+.learncontent .learn .learn__right .right__button {
+  background-color: #ec008c;
+  padding: 15px 30px;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  position: absolute;
+  right: 20px;
+  margin-top: 90px;
+}
+.learncontent .learn .learn__right .right__morebox {
+  height: 460px;
+  background-color: #222;
+  margin-top: 260px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 50px 30px;
+}
+.learncontent .learn .learn__right .right__morebox .morebox__title {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.learncontent .learn .learn__right .right__morebox .morebox__subtitle {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.learncontent .learn .learn__right .right__morebox p {
+  margin-bottom: 55px;
+}
+.learncontent .learn .learn__right .right__morebox .morebox__button {
+  background-color: #ec008c;
+  padding: 20px 60px;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+
 .footer {
   height: 100px;
   background-color: #000;
