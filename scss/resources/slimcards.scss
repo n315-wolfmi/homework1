@@ -1,0 +1,75 @@
+.resourcescontent2 {
+    min-height: 100%;
+    padding: 50px 0;
+    background-color: #000;
+
+    .resources2 {
+        margin: auto;
+        width: 85%;
+        color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        .slimcards {
+
+            .section__title {
+                border-bottom: 1px #fff solid;
+                font-size: 40px;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+            }
+
+            .cardholder {
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                .cardcolumn {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 50%;
+                    margin-right: 15px;
+
+                    .slimcard {
+                        display: flex;
+                        text-decoration: none;
+                        color: #fff;
+                        background-color: #181818;
+                        width: 100%;
+                        margin-bottom: 20px;
+
+                        .imgdiv1 { @include slim-image(); }
+                        .imgdiv2 { @include slim-image("../images/resources/angular.png") }
+                        .imgdiv3 { @include slim-image("../images/resources/react.png") }
+                        .imgdiv4 { @include slim-image("../images/resources/jquery.png") }
+                        .imgdiv5 { @include slim-image("../images/resources/nodejs.png") }
+                        .imgdiv6 { @include slim-image("../images/resources/macmanagementbasics.png") }
+
+                        .infodiv {
+                            width: 100%;
+                            padding-top: 13px;
+
+                            .subtitle {
+                                color: #ec008c;
+                                font-size: 14px;
+                            }
+
+                            .title {
+                                font-size: 20px;
+                            }
+
+                            .extrainfo {
+                                display: flex;
+                                align-items: left;
+                                
+                                p {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

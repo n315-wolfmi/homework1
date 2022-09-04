@@ -336,6 +336,180 @@ h1, h2, h3, h4, h5, h6, p {
   color: #fff;
 }
 
+.resourcescontent1 {
+  min-height: 100%;
+  padding: 50px 0;
+  background-color: #181818;
+}
+.resourcescontent1 .resources1 {
+  margin: auto;
+  width: 85%;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.resourcescontent1 .resources1 .section__title {
+  border-bottom: 1px #fff solid;
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox {
+  width: 435px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__course1 {
+  background-image: url("../images/resources/courses1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__course2 {
+  background-image: url("../images/resources/courses2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__course3 {
+  background-image: url("../images/resources/courses3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__course4 {
+  background-image: url("../images/resources/courses4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 290px;
+  margin-bottom: 20px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__title {
+  font-size: 25px;
+}
+.resourcescontent1 .resources1 .cardholder .cardrow .cardbox .cardbox__text {
+  line-height: 30px;
+  font-size: 15px;
+}
+
+.resourcescontent2 {
+  min-height: 100%;
+  padding: 50px 0;
+  background-color: #000;
+}
+.resourcescontent2 .resources2 {
+  margin: auto;
+  width: 85%;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.resourcescontent2 .resources2 .slimcards .section__title {
+  border-bottom: 1px #fff solid;
+  font-size: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: 15px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  background-color: #181818;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv1 {
+  background-image: url("../images/resources/javascript.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv2 {
+  background-image: url("../images/resources/angular.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv3 {
+  background-image: url("../images/resources/react.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv4 {
+  background-image: url("../images/resources/jquery.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv5 {
+  background-image: url("../images/resources/nodejs.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .imgdiv6 {
+  background-image: url("../images/resources/macmanagementbasics.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 66px;
+  height: 66px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .infodiv {
+  width: 100%;
+  padding-top: 13px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .infodiv .subtitle {
+  color: #ec008c;
+  font-size: 14px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .infodiv .title {
+  font-size: 20px;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .infodiv .extrainfo {
+  display: flex;
+  align-items: left;
+}
+.resourcescontent2 .resources2 .slimcards .cardholder .cardcolumn .slimcard .infodiv .extrainfo p {
+  font-size: 12px;
+}
+
 .footer {
   height: 100px;
   background-color: #000;

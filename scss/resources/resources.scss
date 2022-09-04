@@ -1,0 +1,46 @@
+.resourcescontent1 {
+    min-height: 100%;
+    padding: 50px 0;
+    background-color: #181818;
+
+    .resources1 {
+        margin: auto;
+        width: 85%;
+        color: #fff;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        .section__title {
+            border-bottom: 1px #fff solid;
+            font-size: 40px;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .cardholder {
+            .cardrow {
+                display: flex;
+                justify-content: space-between;
+                max-width: 100%;
+                margin-bottom: 30px;
+
+                .cardbox {
+                    width: 435px;
+    
+                    .cardbox__course1 { @include courses-image(); }
+                    .cardbox__course2 { @include courses-image("../images/resources/courses2.jpg"); }
+                    .cardbox__course3 { @include courses-image("../images/resources/courses3.jpg"); }
+                    .cardbox__course4 { @include courses-image("../images/resources/courses4.jpg"); }
+    
+                    .cardbox__title {
+                        font-size: 25px;
+                    }
+    
+                    .cardbox__text {
+                        line-height: 30px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }    
+}

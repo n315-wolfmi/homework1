@@ -1,0 +1,18 @@
+@mixin courses-image($bgImage: "../images/resources/courses1.jpg") {
+    background-image: url($bgImage);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 290px;
+    margin-bottom: 20px;
+}
+
+@mixin slim-image($bgImage: "../images/resources/javascript.png") {
+    background-image: url($bgImage);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 66px;
+    height: 66px;
+}
