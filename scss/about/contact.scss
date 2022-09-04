@@ -1,0 +1,88 @@
+.contact {
+    min-height: 60%;
+    background-color: #181818;
+    padding: 100px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    .contact__triplecard {
+        width: 55%;
+        height: 330px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .triplecard__card {
+            border: 1px rgb(66, 64, 64) solid;
+            width: 260px;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+            border-radius: 4px;
+
+            .card__title {
+                font-size: 28px;
+                margin: 90px 0 40px 0;
+            }
+
+            .card__button {
+                background-color: $site-pink;
+                padding: 10px 30px;
+                border-radius: 3px;
+                font-weight: 600;
+                letter-spacing: 2px;
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .card__brands {
+                color: $site-pink;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+
+                
+                a {
+                    text-decoration: none;
+                    color: $site-pink;
+                }
+
+                
+            }
+
+            .card__top {
+                background-image: url("../images/contact-us.jpg");
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 50%;
+            }
+
+            .card__bottom {
+                height: 50%;
+                color: #fff;
+
+                .bottom__title {
+                    font-weight: 600;
+                    font-size: 19px;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    margin-bottom: 30px;
+                }
+
+                .card__button {
+                    background-color: $site-pink;
+                    border-radius: 3px;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                    text-decoration: none;
+                    color: #fff;
+                    padding: 10px 20px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}

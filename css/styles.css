@@ -510,6 +510,110 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 12px;
 }
 
+.about {
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/about-hero.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.about .about__info {
+  color: #fff;
+  position: absolute;
+  max-width: 40%;
+  right: 180px;
+  bottom: 70px;
+}
+.about .about__info .info__title {
+  font-size: 46px;
+  margin-bottom: 45px;
+}
+.about .about__info p {
+  line-height: 30px;
+  font-size: 15px;
+}
+.about .about__info a {
+  color: #ec008c;
+  text-decoration: none;
+}
+
+.contact {
+  min-height: 60%;
+  background-color: #181818;
+  padding: 100px 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.contact .contact__triplecard {
+  width: 55%;
+  height: 330px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact__triplecard .triplecard__card {
+  border: 1px rgb(66, 64, 64) solid;
+  width: 260px;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+}
+.contact .contact__triplecard .triplecard__card .card__title {
+  font-size: 28px;
+  margin: 90px 0 40px 0;
+}
+.contact .contact__triplecard .triplecard__card .card__button {
+  background-color: #ec008c;
+  padding: 10px 30px;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+.contact .contact__triplecard .triplecard__card .card__brands {
+  color: #ec008c;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact .contact__triplecard .triplecard__card .card__brands a {
+  text-decoration: none;
+  color: #ec008c;
+}
+.contact .contact__triplecard .triplecard__card .card__top {
+  background-image: url("../images/contact-us.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+.contact .contact__triplecard .triplecard__card .card__bottom {
+  height: 50%;
+  color: #fff;
+}
+.contact .contact__triplecard .triplecard__card .card__bottom .bottom__title {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.contact .contact__triplecard .triplecard__card .card__bottom p {
+  margin-bottom: 30px;
+}
+.contact .contact__triplecard .triplecard__card .card__bottom .card__button {
+  background-color: #ec008c;
+  border-radius: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
+}
+
 .footer {
   height: 100px;
   background-color: #000;

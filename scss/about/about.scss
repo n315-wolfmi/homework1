@@ -1,0 +1,32 @@
+.about {
+    min-height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../images/about-hero.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    .about__info {
+        color: #fff;
+        position: absolute;
+        max-width: 40%;
+        right: 180px;
+        bottom: 70px;
+
+        .info__title {
+            font-size: 46px;
+            margin-bottom: 45px;
+        }
+
+        p {
+            line-height: 30px;
+            font-size: 15px;
+        }
+        
+        a {
+            color: #ec008c;
+            text-decoration: none;
+        }
+    }
+}
